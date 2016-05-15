@@ -1,9 +1,9 @@
 /*
-Theme Name: No Bootstrap
-Author: Michael Gburski
-Description: Theme created for DevEngage to build 
-    a website example without bootstrap
-Version: 1.0
+* Theme Name: No Bootstrap
+* Author: Michael Gburski
+* Description: Theme created for DevEngage to build 
+*    a website example without bootstrap
+* Version: 1.0
 */
 
 body {
@@ -11,113 +11,9 @@ body {
     margin: 0;
 }
 
-.container {
-    margin: 0;
-    padding: 0px 50px;
-}
-
-header {
-    margin-top: 15px;
-}
-
-header h1,
-header h3,
-header p, 
-header a {
-    font-family: Acme, Roboto, sans-serif;
-    text-transform: uppercase;
-}
-
-.logo {
-    max-height: 130px;
-    vertical-align: middle;
-    margin-left: 50px;
-    margin-right: 15px;
-}
-
-.hero {
-    /*background-image: url('img/slcc_filter.jpg');
-    background-size: 100%;*/
-    position: relative;
-    width: 100%;
-    /*padding-top: 32.97%;
-    height: 0;*/
-    /*z-index: 0;*/
-}
-
-.hero-img {
-    background-image: url("../img/slcc_filter.jpg");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    position: relative;
-    width: 100%;
-    padding-top: 32.97%;
-    height: 0;
-}
-
-.hero h1 {
-    font-family: Acme, Roboto, sans-serif;
-    text-transform: uppercase; 
-    position: absolute;
-    top: 47.62%;
-    left: 50px;
-    color: #fff;
-    background-color: rgba(59, 94, 162, 0.5);
-    padding: 7px 15px;
-}
-
-.hero p {
-    position: absolute;
-    top: 58.1%;
-    left: 50px;
-    padding: 7px 15px;
-    color: #fff;
-    font-size: 1.25em;
-    background-color: rgba(59, 94, 162, 0.5);
-}
-
-.navbar a {
-    display: inline-block;
-    padding: 17px 12px 7px 12px;
-    text-transform: uppercase;
-    float: left;
-    text-decoration: none;
-    font-size: 1.25em;
-    color: #000;
-    border: 5px solid transparent;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-.navbar ul {
-    list-style: none;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-bottom: 10px;
-}
-
-.nav-bar ul li:first-child {
-    padding-left: 0px;
-}
-
-.navbar ul li:last-child {
-    background-color: rgba(59, 94, 162, 0.3);
-    float: right;    
-    border: 0px solid transparent;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
-
 .inline {
     display: inline-block;
 }   
-
-.clearmargin {
-    margin: 0px;
-}
 
 .clearfix{
   clear: both;
@@ -134,16 +30,29 @@ header a {
     float: right;
 }
 
-.pull-left-padding {
-    float: left;
-    padding-right: 15px;
+.container {
+    margin: 0;
+    padding: 0px 50px;
 }
 
-.pull-right-padding {
-    float: right;
-    padding-left: 15px;
+/* --- Header and Brand formatting --- */
+
+header {
+    margin-top: 15px;
 }
 
+header p, 
+header a {
+    font-family: Acme, Roboto, sans-serif;
+    text-transform: uppercase;
+}
+
+.logo {
+    max-height: 130px;
+    vertical-align: middle;
+    margin-left: 50px;
+    margin-right: 15px;
+}
 
 .date {
     padding: 10px;
@@ -151,23 +60,168 @@ header a {
     margin-top: 15px;
     text-transform: uppercase;
     background-color: rgba(59, 94, 162, 0.3);
+    float: right;
 }
 
 .date h3,
 .date p {
     margin-bottom: 0px;
     margin-top: 0px;
+    text-align: right;
 }
 
+.navbar a {
+    display: inline-block;
+    padding: 17px 12px 7px 12px;
+    text-transform: uppercase;
+    float: left;
+    text-decoration: none;
+    font-size: 1.25em;
+    color: #000;
+    border: 5px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+}
+
+.nav-bar ul li:first-child {
+    padding-left: 0px;
+}
+
+.navbar ul li:last-child {
+    background-color: rgba(233,132,34, 0.65);
+    float: right;    
+    border: 0px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* --- hero formatting --- */
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hero-img {
+    background-image: url("../img/slcc_filter.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    position: relative;
+    width: 100%;
+    padding-top: 32.97%;
+    height: 0;
+}
+
+.hero h2 {
+    font-family: Acme, Roboto, sans-serif;
+    font-size: 3em;
+    text-transform: uppercase; 
+    position: absolute;
+    top: 40.62%;
+    left: 50px;
+    color: #fff;
+    background-color: rgba(59, 94, 162, 0.5);
+    padding: 7px 15px;
+}
+
+.hero p {
+    position: absolute;
+    top: 58%;
+    left: 50px;
+    padding: 7px 15px;
+    color: #fff;
+    font-size: 2em;
+    background-color: rgba(59, 94, 162, 0.5);
+}
+
+ /*--- feature and expectations formatting --- */
 
 .third {
-    width: 30%;
+    width: 32%;
+    float: right;
 }
 
 .two-thirds {
-    width: 60%;
+    width: 66%;
+    float: left;
 }
 
+.third h2,
+.two-thirds h2 {
+    font-size: 2.25em;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.third h3,
+.two-thirds h3 {
+    font-size: 1.85em;
+    font-family: Roboto, sans-serif;
+}
+
+.feature-list ul {
+    list-style: none;
+}
+
+.feature-list ul li {
+    height: 100px;
+}
+
+.feature-list ul li:nth-child(even) {
+    clear: both;
+}
+
+.two-columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 2.5em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2.5em;
+     column-count: 2;
+     column-gap: 2.5em;
+}
+
+.feature-img {
+    float: left;
+    padding-right: 20px;
+}
+
+.feature-text {
+    padding-left: 20px;
+}
+
+.overlay {
+  position: relative;
+  float: left;
+}
+
+.overlay:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 77px;
+  background: rgba(216,148,66, 0.65);
+}
+
+.orange {
+    font-style: italic;
+    color: rgba(233,132,34, 0.65);
+}
+ /*--- hover css ---*/
+ 
 /*!
  * following provided by
  * Hover.css (http://ianlunn.github.io/Hover/)
