@@ -24,28 +24,34 @@ body {
 }
 
 .hero {
-    position: relative;
     width: 100%;
 }
 
-.hero img {
+.hero-img {
+    position: relative;
     width: 100%;
+    z-index: 0;
 }
 
 .hero h1 {
     font-family: Acme, Roboto, sans-serif;
     text-transform: uppercase; 
     position: absolute;
-    top: 250px;
+    top: 460px;
     left: 50px;
-    width: 100%;  
+    color: #fff;
+    background-color: rgba(59, 94, 162, 0.5);
+    padding: 7px 15px;
 }
 
 .hero p {
     position: absolute;
-    /*top: 250px;
+    top: 514px;
     left: 50px;
-    width: 100%;*/
+    padding: 7px 15px;
+    color: #fff;
+    font-size: 1.25em;
+    background-color: rgba(59, 94, 162, 0.5);
 }
 
 header {
@@ -83,6 +89,17 @@ header a {
 .pull-right {
     float: right;
 }
+
+.pull-left-padding {
+    float: left;
+    padding-right: 15px;
+}
+
+.pull-right-padding {
+    float: right;
+    padding-left: 15px;
+}
+
 
 .date {
     padding: 10px;
@@ -130,8 +147,13 @@ header a {
     border-top-right-radius: 10px;
 }
 
+.third {
+    width: 30%;
+}
 
-
+.two-thirds {
+    width: 60%;
+}
 
 /*!
  * following provided by
