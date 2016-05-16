@@ -31,7 +31,7 @@ body {
 }
 
 .container {
-    margin: 0;
+    margin: 0 0 50px 0;
     padding: 0px 50px;
 }
 
@@ -151,6 +151,10 @@ header a {
     float: right;
 }
 
+.third p {
+    margin-bottom: .75em;
+}
+
 .two-thirds {
     width: 66%;
     float: left;
@@ -224,20 +228,46 @@ header a {
     text-indent: -1em;
 }
 
-.expecations li {
-    padding-left: 18px;
-    margin-left: 18px;
-    margin-bottom: .75em;
-    line-height: 1.4em;  
-}
-
 .expectations li:before {
     color: #d89442;
     content: "\00BB \0020";
     padding-right: 5px;
 }
 
+.expecations-item {
+    margin-bottom: .75em;
+    line-height: 1.4em;  
+}
 
+/*--- quote and missed formatting ---*/
+.quote-box {    
+    background: rgba(216,148,66, 0.15);
+    padding: 1.75em;
+}
+
+.quote {
+    font-style: italic; 
+    margin-bottom: 20px;
+    font-family: serif;
+    font-size: 1.15em;
+    line-height: 1.25em;
+    color: #888787;
+}
+
+.keeptogether {
+    display: inline-block;
+}
+
+.signature {
+    text-transform: uppercase;
+    color: #d89442;
+}
+
+footer {
+    background-color: #d89442;
+    height: 30px;
+    padding: 0px 50px;
+}
  /*--- hover css ---*/
  
 /*!
