@@ -161,6 +161,7 @@ header a {
     font-size: 2.25em;
     letter-spacing: 3px;
     margin-bottom: 10px;
+    color: #d89442;
 }
 
 .third h3,
@@ -169,25 +170,13 @@ header a {
     font-family: Roboto, sans-serif;
 }
 
-.feature-list ul {
-    list-style: none;
-}
-
-.feature-list ul li {
+.feature-list li {
     height: 100px;
+    list-style: none;
 }
 
 .feature-list ul li:nth-child(even) {
     clear: both;
-}
-
-.two-columns {
-    -moz-column-count: 2;
-    -moz-column-gap: 2.5em;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 2.5em;
-     column-count: 2;
-     column-gap: 2.5em;
 }
 
 .feature-img {
@@ -220,6 +209,39 @@ header a {
     font-style: italic;
     color: rgba(233,132,34, 0.65);
 }
+
+.two-columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 2.5em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2.5em;
+     column-count: 2;
+     column-gap: 2.5em;
+}
+
+.expectations ul {
+    list-style: none;
+    text-indent: -1em;
+}
+
+/*.expecations li {
+    padding-left: 18px;
+    margin-left: 18px;
+    margin-bottom: .75em;
+    line-height: 1.4em;  
+}*/
+
+.expectations li:before {
+    color: #d89442;
+    content: "\00BB \0020";
+    padding-right: 5px;
+    padding-left: 18px;
+    margin-left: 18px;
+    margin-bottom: .75em;
+    line-height: 1.4em; 
+}
+
+
  /*--- hover css ---*/
  
 /*!
