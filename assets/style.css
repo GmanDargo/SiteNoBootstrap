@@ -224,21 +224,17 @@ header a {
     text-indent: -1em;
 }
 
-/*.expecations li {
+.expecations li {
     padding-left: 18px;
     margin-left: 18px;
     margin-bottom: .75em;
     line-height: 1.4em;  
-}*/
+}
 
 .expectations li:before {
     color: #d89442;
     content: "\00BB \0020";
     padding-right: 5px;
-    padding-left: 18px;
-    margin-left: 18px;
-    margin-bottom: .75em;
-    line-height: 1.4em; 
 }
 
 
