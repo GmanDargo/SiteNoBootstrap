@@ -240,6 +240,11 @@ header a {
 }
 
 /*--- quote and missed formatting ---*/
+
+.missed a{
+    color: #d89442;
+}
+
 .quote-box {    
     background: rgba(216,148,66, 0.15);
     padding: 1.75em;
@@ -263,11 +268,23 @@ header a {
     color: #d89442;
 }
 
-footer {
-    background-color: #d89442;
-    height: 30px;
-    padding: 0px 50px;
+.signature a {
+    text-decoration: none;
+    color: #d89442;
 }
+
+.bottom-footer {
+    background-color: #d89442;
+    color: #fff;
+    height: 30px;
+}
+
+.copyright {
+    padding: 25px 50px;
+    background-color: #d89442;
+}
+
+
  /*--- hover css ---*/
  
 /*!
