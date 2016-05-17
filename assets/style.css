@@ -122,26 +122,20 @@ header a {
     height: 0;
 }
 
-.hero h2 {
+.hero-box {
     font-family: Acme, Roboto, sans-serif;
-    font-size: 3em;
+    font-size: 1.75em;
     text-transform: uppercase; 
     position: absolute;
     top: 40.62%;
     left: 50px;
     color: #fff;
     background-color: rgba(59, 94, 162, 0.5);
-    padding: 7px 15px;
+    padding: 7px 15px;    
 }
 
-.hero p {
-    position: absolute;
-    top: 58%;
-    left: 50px;
-    padding: 7px 15px;
-    color: #fff;
-    font-size: 2em;
-    background-color: rgba(59, 94, 162, 0.5);
+.hero-box p {
+    color: #FFFF00;
 }
 
  /*--- feature and expectations formatting --- */
